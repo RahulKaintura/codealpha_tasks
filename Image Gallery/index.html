@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery | CodeAlpha</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <h1>Responsive Image Gallery</h1>
+        <p>Explore Beautiful Images</p>
+    </header>
+
+
+    <!-- Filter Buttons -->
+
+    <div class="filter-buttons">
+
+        <button class="active" data-filter="all">All</button>
+
+        <button data-filter="nature">Nature</button>
+
+        <button data-filter="city">City</button>
+
+        <button data-filter="animals">Animals</button>
+
+    </div>
+
+
+
+    <!-- Gallery -->
+
+    <div class="gallery">
+
+        <div class="image nature">
+            <img src="images/nature1.jpg" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="images/city1.jpg" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="images/animal1.jpg" alt="">
+        </div>
+
+        <div class="image nature">
+            <img src="images/nature2.jpg" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="images/city2.jpg" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="images/animal2.jpg" alt="">
+        </div>
+
+    </div>
+
+
+
+    <!-- Lightbox -->
+
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <i class="fa-solid fa-chevron-left prev"></i>
+
+        <img class="lightbox-img" src="" alt="">
+
+        <i class="fa-solid fa-chevron-right next"></i>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
